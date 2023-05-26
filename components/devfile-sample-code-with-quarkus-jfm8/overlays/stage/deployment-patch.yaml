@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-code-with-quarkus-jfm8
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/pshivpuj-tenant/my-app-1/devfile-sample-code-with-quarkus-jfm8@sha256:bea76e20f138aa7ce2be902af1b7f29a10d9bdc6f9bfb2086eaf7953e2c24957
+        name: my-java-quarkus
+        resources: {}
+status: {}
