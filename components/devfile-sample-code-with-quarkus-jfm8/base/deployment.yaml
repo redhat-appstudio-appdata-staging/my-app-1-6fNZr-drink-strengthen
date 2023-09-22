@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-code-with-quarkus-jfm8
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/pshivpuj-tenant/my-app-1/devfile-sample-code-with-quarkus-jfm8@sha256:f848173a7c7c3fc21180be4d98f0c5bb688adf3de1d93208baefc3dadb9badb4
+      - image: quay.io/redhat-user-workloads-stage/pshivpuj-tenant/my-app-1/devfile-sample-code-with-quarkus-jfm8@sha256:bea76e20f138aa7ce2be902af1b7f29a10d9bdc6f9bfb2086eaf7953e2c24957
         name: my-java-quarkus
         ports:
         - containerPort: 8081
